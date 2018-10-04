@@ -1,0 +1,16 @@
+.open-menu-i{
+	display: none;
+}
+.menu-i{
+	&__li:hover .menu-i__submenu{
+		display: block;
+	}
+}
+@media (max-width: 991px){
+	.menu-i{
+		display: none;
+	}
+	.open-menu-i{
+		display: block;
+	}
+}
