@@ -1,0 +1,10 @@
+.ul-before-i{
+	&__li{
+		span{
+			&:before{
+				display: inline-block;
+				content: '\24';
+			}			
+		}					
+	}
+}

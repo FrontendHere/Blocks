@@ -1,4 +1,5 @@
-.open-menu-i{
+.open-menu-i,
+.close-menu-i{
 	display: none;
 }
 .menu-i{
@@ -10,7 +11,8 @@
 	.menu-i{
 		display: none;
 	}
-	.open-menu-i{
+	.open-menu-i,
+	.close-menu-i{
 		display: block;
 	}
 }
